@@ -37,7 +37,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="w4j-SM-CMg">
                                                 <rect key="frame" x="278" y="0.0" width="144" height="146"/>
                                                 <connections>
-                                                    <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="touchUpOutside" id="MnO-na-pjd"/>
+                                                    <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="YdB-Kc-BdU"/>
                                                 </connections>
                                             </slider>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9VM-ze-w6j">
@@ -62,7 +62,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cSh-aB-fje">
                                                 <rect key="frame" x="278" y="0.0" width="144" height="146"/>
                                                 <connections>
-                                                    <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="touchUpOutside" id="xpk-tv-aJM"/>
+                                                    <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="oG0-zx-jvx"/>
                                                 </connections>
                                             </slider>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9e-gz-VPr">
